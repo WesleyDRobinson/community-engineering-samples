@@ -3,13 +3,12 @@
 
 * AMP library launch
     * [amp lib blog post](https://segment.com/blog/support-for-amp/)
-    * [Calvin's talk at CircleCI Office Hours](https://www.meetup.com/CircleCI-Office-Hours/)
+    * Supporting [Calvin's talk at CircleCI Office Hours](https://www.meetup.com/CircleCI-Office-Hours/)
     * [docs updates](https://segment.com/docs/sources/mobile/amp/)
         * built live example: https://segment-amp.firebaseapp.com/, https://github.com/WesleyDRobinson/segment-amp
     * [Segment AMP Source](https://segment.com/wesley-robinson/sources/catalog/amp) type
         * ![Segment catalog preview](https://cloudup.com/cGTViAcJx3a+)
-    * Further research into [concerning userId's in AMP & HTML5](https://github.com/WesleyDRobinson/amp-id-research)
-    * Providing alternative solutions; [Removing stored user traits without calling reset()](https://community.segment.com/t/h4tqyv/removing-stored-user-traits-without-calling-reset)
+    * Worked with customers researching [concerns with userId impact with AMP](https://github.com/WesleyDRobinson/amp-id-research)
 
 ### Forum/Stackoverflow/etc answers you’ve written.
 
@@ -21,6 +20,7 @@
         * 😅 [New Intercom messenger + Turbolinks (Ruby lang)](https://community.segment.com/t/x16nwj/new-intercom-messenger-turbolinks)
         * (Beta support -- new features) [Google Optimize within Google Analytics Integration](https://community.segment.com/t/63ml9j/google-optimize-within-google-analytics-integration)
         * [Google Analytics cookie for server side page tracking](https://community.segment.com/t/y7m7rt/google-analytics-cookie-for-server-side-page-tracking)
+        * Providing alternative solutions; [Removing stored user traits without calling reset()](https://community.segment.com/t/h4tqyv/removing-stored-user-traits-without-calling-reset)
 
 ### Open source projects you’ve contributed to, or a write-up of your contributions to a closed source project that we can verify.
 
@@ -50,8 +50,8 @@
         ![](https://cloudup.com/cBfIVtzMdIg+)
         ![](https://cloudup.com/cY1CuiEZPuW+)
 
-* Customer Success Survey - improving interaction feedback
+* Revamping the Customer Success Survey to gather more and better feedback
     * created survey from industry objective questions (using Typeform),
     * deployed to web (HTML/ JS/ Firebase),
     * delivery of survey by email using Zendesk automated triggers,
-    * cross-functional - CSM, BizOps, App Engineering & Design
+    * cross-functional with CSMs, BizOps, App Engineering & Design
