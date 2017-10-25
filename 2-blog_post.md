@@ -26,8 +26,8 @@ Well, when it comes to debugging data flow: start at the beginning, calmly work 
 
 * A command line!
 
-        MacOS users, check out [iTerm2](https://www.iterm2.com/index.html), an upgrade to the native Terminal.
-        Windows users can leverage [PowerShell](https://docs.microsoft.com/en-us/powershell/)
+MacOS users, check out [iTerm2](https://www.iterm2.com/index.html), an upgrade to the native Terminal.
+Windows users can leverage [PowerShell](https://docs.microsoft.com/en-us/powershell/)
 
 * Python or Node.js® and NPM [Team Treehouse offers installation guides](https://treehouse.github.io/installation-guides/)
 
