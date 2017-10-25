@@ -1,43 +1,61 @@
-## Getting Started with Adobe Creative Cloud Storage
+# Getting Started with Adobe Creative Cloud Storage
 
 ##### *Who is this for?*
 
-Provide a high-level project overview and use cases right at the top.
-Links to outside resources such as marketing and pricing pages!
-Include a highlighted project or demo.
+> Providing a high-level project overview and primary use cases right at the top.
 
-### Installation
+Include Links to outside resources like marketing or pricing pages!
+And perhaps a quick highlighted project or clever demo 😄
 
-Include list of pre-requisites, registration, and environment configuration
+## Installation
 
-### Usage
+This section should include:
 
-Authentication example!
-Offer simplest example of uploading and reading data from Storage API
+* any global pre-requisites
+* How to register an app (if required)
+* supported environments/ client libraries (node.js, Java, Ruby, serverless etc.)
+* Cloud Storage client SDK Download links to each environment
 
-### Detailed Methods Reference
+## Usage
 
-0. Any special notes that both new and experienced users should remember when working in the library?
+### Authentication
+Provide authentication examples!
+
+### Common Examples
+Quick examples for uploading and reading data from Storage API in the most popular client libraries.
+
+## Detailed Methods Reference
+
+> Start with general notes that both new and experienced users should consider when reading the docs
+
 1. Core method with full signatures and detailed example
 2. Helper methods, FAQ on meta data inclusion, build steps, etc
 
-### Adobe Ecosystem Hierarchy and Submission Guidelines
+## Troubleshooting/ Support
 
-Information about Creative SDK Branding and how to submit an app
-
-### Troubleshooting/ Support
-
+If there are any notable exceptions, errors, issues or common "traps," they should go in this section.
 How to contact and receive support for the SDK and any info on support tiers (free, premium, other?)
 Any commonly encountered, un-patchable issues will be added to this section over time :)
 
-### Contributing
+## Apps Using Creative Cloud Storage API
 
+Highlight some more apps "built with CC Storage"
+
+## Adobe Ecosystem Hierarchy and Submission Guidelines
+
+Information about Creative SDK Branding and how to submit an app
+
+## (if open source is a goal) Contributing
+
+Suggestions, policies, standards, "development how to's," etc.
 For example: https://github.com/avajs/ava/blob/master/contributing.md
 
-#### Policy
+### Development Best Practices
 
-#### Development
+### Tests
 
-#### Testing
+How to write and execute SDK tests
 
-### License
+## License
+
+It's important!
