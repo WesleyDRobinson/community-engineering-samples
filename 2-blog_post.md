@@ -26,8 +26,8 @@ Well, when it comes to debugging data flow: start at the beginning, calmly work 
 
 * A command line!
 
-        MacOS users, check out [iTerm2](https://www.iterm2.com/index.html), an upgrade to the native Terminal.
-        Windows users can leverage [PowerShell](https://docs.microsoft.com/en-us/powershell/)
+MacOS users, check out [iTerm2](https://www.iterm2.com/index.html), an upgrade to the native Terminal.
+Windows users can leverage [PowerShell](https://docs.microsoft.com/en-us/powershell/)
 
 * Python or Node.js® and NPM [Team Treehouse offers installation guides](https://treehouse.github.io/installation-guides/)
 
@@ -47,7 +47,7 @@ Open index.html in your favorite text editor to craft an HTML5 document.
 
 Now, browser vendors are working to implement APIs like [Media Capture and Streams](https://w3c.github.io/mediacapture-main/getusermedia.html), drag and drop events, new high-res timings!
 
-To get started testing, we just need a few elements in the HTML:
+To get started testing though, we just need a few elements for a solid base:
 
 ```html
 <!DOCTYPE html>
@@ -60,9 +60,9 @@ To get started testing, we just need a few elements in the HTML:
 </head>
 <body>
 
-<h2 id="message" contentEditable=true>Visitor, look within and synergize yourself.</h2>
-<!-- Note that any HTMLElement can be editable! :hearteyes: -->
-<!-- read more @ https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_Editable -->
+<h1 id="message" contentEditable=true>Visitor, look within and synergize yourself.</h1>
+<p> Note that any HTMLElement can be editable! Click on that silly heading and start typing to see for yourself. <br>
+Read more on MDN: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_Editable </p>
 
 <button id="button">Explore Metaphors</button>
 
@@ -72,26 +72,26 @@ To get started testing, we just need a few elements in the HTML:
 </html>
 ```
 
-You can open this file from your file system, but to interact with non-local servers or to take advantage of "Web API" stuff, a server is needed.
-A local server is simple to create, and here are a few ways.
+You can open this file from your file system, but to interact with outside servers and take advantage of some "Web APIs," let's serve the files from a local server.
+A local server is simple to create; here are two ways.
 
-From a terminal window, navigate to your `enlightenment` folder.
+First, in a terminal window, navigate to your `enlightenment` folder.
 
-If you have a working Python environment,
-
-`$ python -m http.server`
-
-If using node.js and NPM, my choice is [http-server, a simple zero-configuration command-line http server](https://github.com/indexzero/http-server).
+Because I usually work in node.js and NPM, my choice is [http-server, a simple zero-configuration command-line http server](https://github.com/indexzero/http-server).
 I'm a fan of simple tools that address a single concern well; this is one of my favorite examples!
 
 `$ npm install -g http-server`
 
 `$ http-server -o`
 
-Alright! You should be looking at the webpage in your default browser now!
+If you have a working Python environment, then this can be even simpler:
+
+`$ python -m http.server 8080`
+
+Alright! Launch `localhost:8080` in a browser window, and you should be looking at the webpage in your default browser now!
 
 [Pop open the developer tools](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools), and you are in a powerful developer environment—from DOM explorer to a JavaScript console to Network inspection.
-You can manipulate page content, freeze the page at any point with a `debugger` statement, and even [set up persistence to local files](https://developers.google.com/web/tools/setup/setup-workflow) in some cases.
+You can manipulate page content, freeze the page at any point with a `debugger` statement, and even [set up persistence to local files](https://developers.google.com/web/tools/setup/setup-workflow).
 
 Adding a `styles.css` to the folder will give you the final piece to
 I find this a more approachable, reliable, and configurable sandbox than something like CodePen or JSFiddle.
@@ -105,13 +105,15 @@ Bugs can only be fixed once issues are reproducible, and it helps to be familiar
 #### simple examples
 Practice examples from articles and blogs as you read them!
 
-[Lodash did it!](https://colintoh.com/blog/lodash-10-javascript-utility-functions-stop-rewriting)
+[Lodash is a powerful utility library!](https://colintoh.com/blog/lodash-10-javascript-utility-functions-stop-rewriting)
+
 ![learning to use lodash](./assets/lodash.png)
 
-Simply add the library or example scripts to your `index.html` and `main.js`, [jsdelivr.com hosts mirrors](https://cdn.js.com) for many JS libraries!
+To try it out, simply include the library in your `index.html`, 
+
 `<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.js"></script>`
 
-A bare bones testing window offers freedom to "play around" with native Web APIs!
+A bare bones testing window offers freedom to "play around" with native Web APIs! And wow, there's [jsdelivr.com mirrors](https://cdn.js.com) for most JS libraries you'll want to try!
 
 #### DOM Performance testing
 Do you know about the [Performance API](https://developer.mozilla.org/en-US/docs/Web/API/Performance)?
