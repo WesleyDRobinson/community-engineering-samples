@@ -33,3 +33,5 @@ https://twitter.com/CreativeSDK vs https://twitter.com/AdobeCare & https://twitt
 😢 Talking about @CreativeSDK & @Aviary:
 "I looked at they're twitter profile and the seem to be inactive so I doubt they'll fix it"
 https://twitter.com/Jonathanpwi/status/905115136872120320
+
+I think we can fix this reputation!
